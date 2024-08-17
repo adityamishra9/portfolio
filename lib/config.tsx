@@ -41,7 +41,7 @@ export const SiteConfig = {
     },
     schedulerLink: "https://calendar.app.google/758iN1KDNaNpsq498",
   },
-  title: "ACME",
+  title: "Aditya Mishra",
   resumeLink:
     "#",
 };
