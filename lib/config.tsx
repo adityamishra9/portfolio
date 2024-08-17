@@ -43,7 +43,7 @@ export const SiteConfig = {
     schedulerLink: "https://calendar.app.google/J8tcX1z4WFoU8X7J9",
   },
   title: "Aditya Mishra",
-  resumeLink: "#",
+  resumeLink: "https://drive.google.com/file/d/1kwSf54P8m7Yc70PDMEKS0eflPXW4RUTT/view?usp=sharing",
 };
 
 export const NavbarItems = [
@@ -157,10 +157,6 @@ export const footerOptions = [
         name: "Toolbox",
         route: "/toolbox",
       },
-      {
-        name: "Products",
-        route: "/products",
-      },
     ],
   },
   {
@@ -169,10 +165,6 @@ export const footerOptions = [
       {
         name: "ChangeLog",
         route: "/changelog",
-      },
-      {
-        name: "Connections",
-        route: "/connections",
       },
       {
         name: "Resume",
