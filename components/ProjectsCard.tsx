@@ -40,18 +40,18 @@ export const ProjectsCard = ({
           href={item.link}
           key={index}
           className={cn(
-            "gap-2 md:gap-3 bg-transparent border-none shadow-none text-default-600",
+            "bg-transparent border-none shadow-none text-default-600",
             className
           )}
         >
-          <CardHeader className="flex flex-col justify-start items-start md:flex-row w-full h-full md:justify-between gap-2">
+          <CardHeader className="flex flex-col justify-start items-start md:flex-row w-full h-full md:justify-between">
             <Image
               src={item.src}
-              className="flex gap-2 md:gap-3 rounded-lg max-h-[20rem] object-contain p-3"
+              className="flex rounded-lg max-h-[20rem] object-contain px-3"
               alt="Image"
             />
           </CardHeader>
-          <CardBody className="gap-5">
+          <CardBody >
             <p className="text-xl md:text-2xl text-foreground font-semibold">
               {item.title}
             </p>

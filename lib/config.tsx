@@ -5,6 +5,10 @@ import {
   chatGPT,
   framer,
   ftimg,
+  g1,
+  g2,
+  g3,
+  g4,
   HomeScreen,
   Insomnia,
   Nextjs,
@@ -39,8 +43,7 @@ export const SiteConfig = {
     schedulerLink: "https://calendar.app.google/J8tcX1z4WFoU8X7J9",
   },
   title: "Aditya Mishra",
-  resumeLink:
-    "#",
+  resumeLink: "#",
 };
 
 export const NavbarItems = [
@@ -212,7 +215,8 @@ export const hardware = [
   },
   {
     title: "Mouse",
-    description: "MS116 features optical LED tracking and wired connectivity providing a stellar performance day after day. Helps keep you on task with accurate 1000 DPI",
+    description:
+      "MS116 features optical LED tracking and wired connectivity providing a stellar performance day after day. Helps keep you on task with accurate 1000 DPI",
     company: "Dell",
   },
 ];
@@ -346,41 +350,24 @@ export const tools = [
 
 export const projects = [
   {
-    src: ["/images/HomeScreen.png", "/images/aboutsection.png"],
-    link: "https://building.yashpede.in/",
-    title: "Portfolio Page",
-    description:
-      "A page that describes my projects, connections, software and hardware I use",
+    src: [
+      "/images/adminpp.png",
+      "/images/productspp.png",
+      "/images/sidebarpp.png",
+      "/images/challanpp.png",
+      "/images/orderspp.png",
+    ],
+    link: "https://admin.purepridepharma.in/",
+    title: "Pure Pride Pharma",
+    description: "ERP System Application | React",
   },
-  // {
-  //   src: ["/images/yashSite.png", "/images/dp.jpeg"],
-  //   link: "https://www.protfolio.yashpede.in/",
-  //   title: "Portfolio Page 2",
-  //   description:
-  //     "A page that describes my projects, connections and much more about me",
-  // },
 ];
 
-// export const minorProjects = [
-  // {
-  //   src: yashSite,
-  //   link: "https://www.protfolio.yashpede.in/",
-  //   title: "Portfolio Page",
-  //   description:
-  //     "Explore the my portfolio with this captivating 3D simulation of the my workstation using Three.js.",
-  // },
-  // {
-  //   src: initialPortfolio,
-  //   link: "https://www.initialportfolio.yashpede.in/",
-  //   title: "Minimal Portfolio",
-  //   description:
-  //     "A portfolio website for a web developer.",
-  // },
-  // {
-  //   src: Saas,
-  //   link: "https://www.shrewit.shop/",
-  //   title: "AI NoteTaking SaaS - Web Application",
-  //   description:
-  //     "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  // },
-// ];
+export const minorProjects = [
+  {
+    src: g1,
+    link: "https://gpt3.adityamishra.online/",
+    title: "UI/UX website",
+    description: "A display of my CSS skills",
+  },
+];

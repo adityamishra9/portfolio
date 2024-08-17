@@ -25,6 +25,11 @@ import pp from "./adminpp.png";
 import re from "./re.svg"
 import tail from "./tail.svg"
 import ts from "./ts.svg"
+import g1 from "./gpt31.png"
+import g2 from "./gpt32.png"
+import g3 from "./gpt33.png"
+import g4 from "./gpt34.png"
+import g5 from "./gpt35.png"
 export {
   FullBody,
   AboutSectionFeat,
@@ -53,4 +58,9 @@ export {
   tail,
   ts,
   re,
+  g1,
+  g2,
+  g3,
+  g4,
+  g5,
 };

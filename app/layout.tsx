@@ -41,7 +41,7 @@ export default function RootLayout({
       <body className={ubuntu.className + " min-h-screen"}>
         <NextUIProviders>
           <MainNavbar />
-          <HeroTitle />
+          {/* <HeroTitle /> */}
           <div className="px-5 md:max-w-5xl lg:max-w-6xl mx-auto min-h-screen flex flex-col mt-7 ">
             {children}
           </div>
