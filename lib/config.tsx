@@ -204,37 +204,19 @@ export const hardware = [
   {
     title: "ideapad Slim 3",
     description:
-      "A technology company that builds economic infrastructure for the internet. My laptop comprises of an i5 10th generation processor, 1 TB of storage and 8GB RAM",
+      "A technology company that builds economic infrastructure for the internet. My laptop comprises of an i5-10th generation processor, 1 TB of storage and 8GB RAM",
     company: "Lenovo",
   },
   {
     title: "Nord CE3",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Snapdragon™ 782G chipset with tons of power and saves battery on intensive tasks so your fun lasts longer. 8 GB RAM + 256 GB Storage. Sensor: Samsung S5KHM6SX03 Megapixels: 108",
     company: "OnePlus",
   },
   {
     title: "Mouse",
-    description: "A 60 1080x1920p monitor that I use for work and gaming.",
+    description: "MS116 features optical LED tracking and wired connectivity providing a stellar performance day after day. Helps keep you on task with accurate 1000 DPI",
     company: "Dell",
-  },
-  {
-    title: "Keyboard",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    company: "HP",
-  },
-  {
-    title: "Processor",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    company: "intel",
-  },
-  {
-    title: "Zuckerberg",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    company: "Microsoft",
   },
 ];
 
