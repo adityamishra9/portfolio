@@ -4,6 +4,7 @@ import React from "react";
 import { Noise } from "../ui/Noice";
 import { Meteors } from "../ui/meteors";
 import { isMobile } from "react-device-detect";
+import { Braces } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
       <div className="pb-5 md:flex md:flex-row md:space-x-20">
         <div className=" flex flex-col space-y-6 md:w-56 ">
           <Link color="foreground" href="/" className="font-semibold">
-            Logo
+            <Braces/>
           </Link>
           <p className="font-medium">
             I&apos;m {SiteConfig.user.firstName} - a front-end developer,
