@@ -1,7 +1,7 @@
 import SectionHeading from "@/components/layout/SectionHeading";
 import { ProjectsCard } from "@/components/ProjectsCard";
 import { ImagesSlider } from "@/components/ui/images-slider";
-import { projects, minorProjects } from "@/lib/config";
+// import { projects, minorProjects } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import { Card, CardBody, CardHeader } from "@nextui-org/react";
 import Link from "next/link";
