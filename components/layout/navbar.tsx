@@ -24,7 +24,8 @@ export default function MainNavbar() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand as={Link} href="/">
+        {/* @ts-ignore */}
+        <NavbarBrand as={Link} href="/" color="foreground">
           <Braces />
           <p className="font-bold text-inherit">{SiteConfig.title}</p>
         </NavbarBrand>
@@ -33,8 +34,12 @@ export default function MainNavbar() {
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {NavbarItems.map((item, index) => (
           <NavbarItem key={`${item}-${index}`}>
-            <Link color={item.color ? (item.color as any) : "primary"} href={item.link}>
-              {item.title}
+            <Link
+              color={item.color ? (item.color as any) : "primary"}
+              href={item.link}
+              isExternal={item.title === "Resume"}
+            >
+              {item.title}  
             </Link>
           </NavbarItem>
         ))}
@@ -54,7 +59,11 @@ export default function MainNavbar() {
                   : "foreground"
               }
               className="w-full"
-              href={item.toLowerCase() === "home" ? "/" : `/${item.toLowerCase().replace(" ", "-")}`}
+              href={
+                item.toLowerCase() === "home"
+                  ? "/"
+                  : `/${item.toLowerCase().replace(" ", "-")}`
+              }
               size="lg"
             >
               {item}

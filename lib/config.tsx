@@ -130,7 +130,7 @@ export const HeroTitleData = [
   },
 ];
 
-export const GithubYears = [2024, 2023, 2022];
+export const GithubYears = [2024, 2023];
 
 export const footerOptions = [
   {
