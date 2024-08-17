@@ -15,7 +15,7 @@ const Footer = () => {
             Logo
           </Link>
           <p className="font-medium">
-            I&apos;m {SiteConfig.user.firstName} - a senior front-end developer,
+            I&apos;m {SiteConfig.user.firstName} - a front-end developer,
             thanks for checking out my site!
           </p>
 

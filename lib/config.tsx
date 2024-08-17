@@ -88,12 +88,10 @@ export const skills = [
   "TailwindCSS",
   "Git",
   "GitHub",
-  "Figma",
-  "Framer Motion",
   "Supabase",
   "PostgreSQL",
   "Vercel",
-  "TailwindCSS",
+  "Blender",
 ];
 
 export const HeroTitleData = [
@@ -108,7 +106,7 @@ export const HeroTitleData = [
     route: "/about",
     title: [
       `Good ${new Date().getHours() > 12 ? "morning" : "evening"}!`,
-      `I'm ${SiteConfig.user.firstName}, an experienced frontend developer.`,
+      `I'm ${SiteConfig.user.firstName}, a frontend developer.`,
     ],
   },
   {
@@ -204,16 +202,16 @@ export const socialLinks = [
 
 export const hardware = [
   {
-    title: "Laptop",
+    title: "ideapad Slim 3",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "A technology company that builds economic infrastructure for the internet. My laptop comprises of an i5 10th generation processor, 1 TB of storage and 8GB RAM",
     company: "Lenovo",
   },
   {
-    title: "Mobile Phone",
+    title: "Nord CE3",
     description:
       "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    company: "Samsung",
+    company: "OnePlus",
   },
   {
     title: "Mouse",
@@ -341,15 +339,15 @@ export const changelog = [
     img: ToolboxPage,
     chips: ["Feature", "Enhancement", "Design"],
   },
-  {
-    title: "Adding About Section",
-    description: [
-      `The about section has been equipped with individually animated and responsive cards, each of which features and connects the viewer to details about me.`,
-    ],
-    date: "August 5, 2024",
-    img: AboutSectionFeat,
-    chips: ["Feature", "Enhancement", "Design"],
-  },
+  // {
+  //   title: "Adding About Section",
+  //   description: [
+  //     `The about section has been equipped with individually animated and responsive cards, each of which features and connects the viewer to details about me.`,
+  //   ],
+  //   date: "August 5, 2024",
+  //   img: AboutSectionFeat,
+  //   chips: ["Feature", "Enhancement", "Design"],
+  // },
   {
     title: "Portfolio Website Launch",
     description: [

@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-36">
       <GithubContributions />
-      <ScrollingText text="I'm an experienced front-end developer with a passion for design and a knack for tinkering. Web development is my playground, where push boundaries and chase new horizons." />
+      <ScrollingText text="I'm a front-end developer with a passion for design and a knack for tinkering. Web development is my playground, where I push boundaries and chase new horizons." />
       <About items={items} />
       <SkillsStagger />
     </div>

@@ -6,14 +6,14 @@ import React from "react";
 export const AboutCardExtra = () => {
   return (
     <Link
-      href="https://www.youtube.com/@Yash_Pede"
+      href="https://www.youtube.com/@AdityaMishra-je2pi"
       target="_blank"
       className="md:grid grid-cols-4 grid-rows-1 gap-5 p-4 md:p-6 place-items-center group "
     >
       <div className="col-span-3 row-span-1 md:order-2 p-3 flex flex-col gap-3 text-foreground text-start z-10">
         <h3 className="text-xl">Youtube</h3>
         <p className="text-sm text-foreground/80">
-          This a very old yt channel which I dont know who made. 😅 Dont watch
+          This is a very old yt channel which I dont know who made. 😅 Dont watch
           !!!
         </p>
         <div className="grid grid-cols-3 place-items-center">
