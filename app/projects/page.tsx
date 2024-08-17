@@ -9,7 +9,7 @@ import React from "react";
 const ProjectsPage = () => {
   return (
     <section className="flex flex-col text-center w-full h-full justify-center items-center gap-20 mt-20">
-      <SectionHeading title="Fun Projects" subtitle="More Projects" />
+      <SectionHeading subtitle="Projects" />
       {projects.map((item, index) => (
         <Card as={Link}
           key={index} href={item.link}
