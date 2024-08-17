@@ -355,35 +355,35 @@ export const projects = [
     description:
       "A page that describes my projects, connections, software and hardware I use",
   },
-  {
-    src: ["/images/yashSite.png", "/images/dp.jpeg"],
-    link: "https://www.protfolio.yashpede.in/",
-    title: "Portfolio Page 2",
-    description:
-      "A page that describes my projects, connections and much more about me",
-  },
+  // {
+  //   src: ["/images/yashSite.png", "/images/dp.jpeg"],
+  //   link: "https://www.protfolio.yashpede.in/",
+  //   title: "Portfolio Page 2",
+  //   description:
+  //     "A page that describes my projects, connections and much more about me",
+  // },
 ];
 
 export const minorProjects = [
   {
-    src: yashSite,
-    link: "https://www.protfolio.yashpede.in/",
-    title: "Portfolio Page",
-    description:
-      "Explore the my portfolio with this captivating 3D simulation of the my workstation using Three.js.",
-  },
-  {
-    src: initialPortfolio,
-    link: "https://www.initialportfolio.yashpede.in/",
-    title: "Minimal Portfolio",
-    description:
-      "A portfolio website for a web developer.",
-  },
-  {
-    src: Saas,
-    link: "https://www.shrewit.shop/",
-    title: "AI NoteTaking SaaS - Web Application",
-    description:
-      "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  },
+  //   src: yashSite,
+  //   link: "https://www.protfolio.yashpede.in/",
+  //   title: "Portfolio Page",
+  //   description:
+  //     "Explore the my portfolio with this captivating 3D simulation of the my workstation using Three.js.",
+  // },
+  // {
+  //   src: initialPortfolio,
+  //   link: "https://www.initialportfolio.yashpede.in/",
+  //   title: "Minimal Portfolio",
+  //   description:
+  //     "A portfolio website for a web developer.",
+  // },
+  // {
+  //   src: Saas,
+  //   link: "https://www.shrewit.shop/",
+  //   title: "AI NoteTaking SaaS - Web Application",
+  //   description:
+  //     "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  // },
 ];
