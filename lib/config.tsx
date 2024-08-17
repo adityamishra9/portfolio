@@ -6,13 +6,11 @@ import {
   framer,
   ftimg,
   HomeScreen,
-  initialPortfolio,
   Insomnia,
   Nextjs,
   notion,
   obsidian,
   PostgresSql,
-  Saas,
   spotify,
   Supabase,
   ToolboxPage,
@@ -21,7 +19,6 @@ import {
   valo,
   vscode,
   warp,
-  yashSite,
 } from "@/public/images";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
@@ -364,8 +361,8 @@ export const projects = [
   // },
 ];
 
-export const minorProjects = [
-  {
+// export const minorProjects = [
+  // {
   //   src: yashSite,
   //   link: "https://www.protfolio.yashpede.in/",
   //   title: "Portfolio Page",
@@ -386,4 +383,4 @@ export const minorProjects = [
   //   description:
   //     "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
   // },
-];
+// ];
