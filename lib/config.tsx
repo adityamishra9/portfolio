@@ -39,7 +39,7 @@ export const SiteConfig = {
       githubUserId: "adityamishra9",
       linkedInUserId: "adityamishra9",
     },
-    schedulerLink: "https://calendar.app.google/758iN1KDNaNpsq498",
+    schedulerLink: "https://calendar.app.google/J8tcX1z4WFoU8X7J9",
   },
   title: "Aditya Mishra",
   resumeLink:
@@ -321,15 +321,6 @@ export const changelog = [
     img: ToolboxPage,
     chips: ["Feature", "Enhancement", "Design"],
   },
-  // {
-  //   title: "Adding About Section",
-  //   description: [
-  //     `The about section has been equipped with individually animated and responsive cards, each of which features and connects the viewer to details about me.`,
-  //   ],
-  //   date: "August 5, 2024",
-  //   img: AboutSectionFeat,
-  //   chips: ["Feature", "Enhancement", "Design"],
-  // },
   {
     title: "Portfolio Website Launch",
     description: [
