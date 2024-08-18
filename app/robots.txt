@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /about/,/projects/,
 Disallow: /connections/
 
-Sitemap: https://building.yashpede.in/sitemap.xml
+Sitemap: https://adityamishra.online/sitemap.xml
