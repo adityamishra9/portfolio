@@ -362,4 +362,10 @@ export const minorProjects = [
     title: "UI/UX website",
     description: "A display of my CSS skills",
   },
+  {
+    src: g1,
+    link: "https://restaurant.adityamishra.online/",
+    title: "A Website for The Restaurants",
+    description: "This project displays my UI/UX skills along with my compatibility with ReactJS, NodeJS and TailwindCSS",
+  },
 ];
