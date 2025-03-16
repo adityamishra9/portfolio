@@ -5,7 +5,7 @@ import React from "react";
 export const Resume = () => {
   return (
     <div className="w-full h-full inset-0 flex flex-col gap-3 px-5 py-3 relative -z-10">
-      <Link href="https://drive.google.com/file/d/1kwSf54P8m7Yc70PDMEKS0eflPXW4RUTT/view?usp=sharing">
+      <Link href="https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?usp=drive_link">
         <Card className="w-full space-y-5 p-4 " radius="lg">
           <Skeleton className="rounded-lg">
             <div className="h-24 rounded-lg"></div>
