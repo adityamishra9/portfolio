@@ -16,7 +16,7 @@
       "source": "/",
       "has": [{ "type": "host", "value": "docchat.adityamishra.tech" }],
       "destination": "https://raw.githubusercontent.com/adityamishra9/docChat/master/docker-compose.yml",
-      "permanent": true
+      "permanent": false
     }
   ]
 }
