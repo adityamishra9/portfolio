@@ -1,11 +1,22 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "has": [{ "type": "host", "value": "resume.adityamishra.tech" }],
-        "destination": "https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?tab=t.0",
-        "permanent": true
-      }
-    ]
-  }
-  
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "resume.adityamishra.tech" }],
+      "destination": "https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?tab=t.0",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "cv.adityamishra.tech" }],
+      "destination": "https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?tab=t.0",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "docchat.adityamishra.tech" }],
+      "destination": "https://raw.githubusercontent.com/adityamishra9/docChat/master/docker-compose.yml",
+      "permanent": true
+    }
+  ]
+}
