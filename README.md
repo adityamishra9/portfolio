@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Portfolio — Personal Website
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-teal?logo=tailwindcss)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://vercel.com/)
 
-First, run the development server:
+A sleek and modern personal portfolio website built with **Next.js 14** and **TypeScript**, designed to showcase projects, skills, resume, and changelog.  
+Deployed seamlessly with **Vercel**, styled with **Tailwind CSS** and **NextUI**, and enhanced with **Framer Motion** animations.
 
+---
+
+## ✨ Features
+
+- ⚡ Built with **Next.js App Router**
+- 🎨 **Tailwind CSS + NextUI** for styling
+- 🌓 **Dark/Light mode** support via `next-themes`
+- 💫 Smooth **animations** with `framer-motion`
+- 📱 Responsive layout using `react-device-detect`
+- 📋 Pages for **About**, **Projects**, **Products**, **Toolbox**, **Changelog**, and **Resume**
+- 🧩 Reusable UI components (BentoGrid, WobbleCard, Meteors, ThemeSwitcher, etc.)
+- 🌐 Configured for **Vercel deployment** with redirects
+
+---
+
+## 🧠 Project Structure
+
+```
+portfolio/
+├── app/               # App Router pages (about, projects, resume, etc.)
+├── components/        # Reusable UI components
+├── lib/                # Configs, animations, and helpers
+├── providers/         # Context providers (NextUIProvider)
+├── public/             # Static assets (images, icons, textures)
+├── styles/             # Global styles
+├── next.config.mjs
+├── tailwind.config.ts
+├── postcss.config.mjs
+├── tsconfig.json
+└── vercel.json
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
 ```bash
+git clone https://github.com/adityamishra9/portfolio.git
+cd portfolio
+```
+
+### 2. Install dependencies
+```bash
+bun install
+# or
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
+```bash
+bun dev
+# or
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000** in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🚀 Build & Deployment
 
-## Learn More
+To create a production build:
+```bash
+bun run build
+bun start
+```
 
-To learn more about Next.js, take a look at the following resources:
+This project is configured to deploy on **Vercel** out-of-the-box.  
+`vercel.json` handles custom host-based redirects (resume, docs).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📝 Roadmap
 
-## Deploy on Vercel
+- [ ] Add further details
+- [ ] Add blog section
+- [ ] Enhance SEO and metadata
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 👨‍💻 Author
+
+**Aditya Mishra**  
+🌐 [Portfolio](https://adityamishra.tech)  
+💼 [LinkedIn](https://linkedin.com/in/adityamishra9)  
+📂 [GitHub](https://github.com/adityamishra9)
+
+---

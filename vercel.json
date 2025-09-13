@@ -3,13 +3,13 @@
     {
       "source": "/",
       "has": [{ "type": "host", "value": "resume.adityamishra.tech" }],
-      "destination": "https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?tab=t.0",
+      "destination": "https://drive.google.com/file/d/1NIJk4Go7ifocZVvj8rAPiDby15RRtBgH/view?usp=sharing",
       "permanent": true
     },
     {
       "source": "/",
       "has": [{ "type": "host", "value": "cv.adityamishra.tech" }],
-      "destination": "https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?tab=t.0",
+      "destination": "https://drive.google.com/file/d/1NIJk4Go7ifocZVvj8rAPiDby15RRtBgH/view?usp=sharing",
       "permanent": true
     },
     {
