@@ -43,7 +43,7 @@ export const SiteConfig = {
     schedulerLink: "https://calendar.app.google/J8tcX1z4WFoU8X7J9",
   },
   title: "Aditya Mishra",
-  resumeLink: "https://docs.google.com/document/d/12szBZUee_K97C2hTA89tsly0M4hDJZwYr0TTySy4g40/edit?usp=drive_link",
+  resumeLink: "https://cv.adityamishra.tech/",
 };
 
 export const NavbarItems = [
