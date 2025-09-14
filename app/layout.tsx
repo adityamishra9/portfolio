@@ -6,6 +6,7 @@ import { SiteConfig } from "@/lib/config";
 import HeroTitle from "@/components/layout/HeroTitle";
 import { NextUIProviders } from "@/providers/NextUIProvider";
 import Footer from "@/components/layout/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const ubuntu = Ubuntu({
   weight: ["400", "700"],
@@ -44,6 +45,7 @@ export default function RootLayout({
           <HeroTitle />
           <div className="px-5 md:max-w-5xl lg:max-w-6xl mx-auto min-h-screen flex flex-col mt-7 ">
             {children}
+            <Analytics/>
           </div>
           <Footer />
         </NextUIProviders>
